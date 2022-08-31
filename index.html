@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Follow up Survey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="survey">
+        <center><div class="header"><h1>Follow up Survey</h1></div></center>
+        <div class="main">
+        <form>
+            <table class="tables">
+                <tr>
+                    <td><label for="date"><strong>When did you use our service?</strong></label></td>
+                    <td class="spacing"><label for="productname"><strong>Name of product or service</strong></label></td>
+                </tr>
+                <tr>
+                    <td><input type="date" id="date" name="date"></td>
+                    <td class="spacing"><input type="text" id="productname" name="productname"></td>
+                </tr>
+                <tr><td id="date2">Date</td></tr>
+            </table><br><br>
+            <label for="satisfaction"><strong>Overall, how satisfied are you with our product or service?</strong></label>
+            <table>
+                <tr>
+                    <td><input type="radio" id="satisfaction" name="satisfaction" value="verysatisfied">Very Satisfied</input></td>
+                    <td class="spacing"><input type="radio" id="satisfaction" name="satisfaction" value="satisfied">Satisfied</input></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="satisfaction" name="satisfaction" value="neutral">Neutral</input></td>
+                    <td class="spacing"><input type="radio" id="satisfaction" name="satisfaction" value="unsatisfied">Unsatisfied</input></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="satisfaction" name="satisfaction" value="veryunsatisfied">Very Unsatisfied</input></td>
+                    <td class="spacing"><input type="radio" id="satisfaction" name="satisfaction" value="notavailable">N/A</input></td>
+                </tr>
+            </table><br><br>
+            <label for="expectation"><strong>Did our product or service meet your expectation?</strong></label>
+            <table>
+                <tr>
+                    <td><input type="radio" id="expectation" name="expectation" value="yes">Yes</input></td>
+                    <td class="spacing2"><input type="radio" id="expectation" name="expectation" value="no">No</input></td>
+                </tr>
+            </table><br><br>
+            <label for="recommendation"><strong>Would you recommend this product or service to a friend?</strong></label>
+            <table>
+                <tr>
+                    <td><input type="radio" id="recommendation" name="recommendation" value="yes">Yes</input></td>
+                    <td class="spacing2"><input type="radio" id="recommendation" name="recommendation" value="no">No</input></td>
+                </tr>
+            </table><br><br>
+            <label for="mostsatisfiedby"><strong>What aspect of the product or service were you most satisfied by?</strong></label>
+            <table>
+                <tr>
+                    <td><input type="radio" id="mostsatisfiedby" name="mostsatisfiedby" value="quality">Quality</input></td>
+                    <td class="spacing"><input type="radio" id="mostsatisfiedby" name="mostsatisfiedby" value="price">Price</input></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="mostsatisfiedby" name="mostsatisfiedby" value="cs">Customer Service</input></td>
+                    <td class="spacing"><input type="radio" id="mostsatisfiedby" name="mostsatisfiedby" value="installation">Installation or first use experience</input></td>
+                </tr>
+            </table><br><br>
+            <label for="leastsatisfiedby"><strong>What aspect of the product or service were you least satisfied by?</strong></label>
+            <table>
+                <tr>
+                    <td><input type="radio" id="leastsatisfiedby" name="leastsatisfiedby" value="quality">Quality</input></td>
+                    <td class="spacing"><input type="radio" id="leastsatisfiedby" name="leastsatisfiedby" value="price">Price</input></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" id="leastsatisfiedby" name="leastsatisfiedby" value="cs">Customer Service</input></td>
+                    <td class="spacing"><input type="radio" id="leastsatisfiedby" name="leastsatisfiedby" value="installation">Installation or first use experience</input></td>
+                </tr>
+            </table><br><br><br><br><br>
+            <label for="comments"><strong>Additional Comments:</strong></label></br>
+            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Type here..."></textarea><br><br>
+            <center><input type="submit" class="btn" style="margin-bottom: 5%;"></input></center>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
