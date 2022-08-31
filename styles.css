@@ -4,6 +4,18 @@ body {
     font-size: 0.7rem;
     font-family: 'Open Sans', sans-serif;
 }
+h1 {
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+label{
+    font-weight: 800;
+}
+input[type="radio"]{
+    vertical-align: bottom;
+}
 .spacing {
     padding-left: 4rem;
 }
@@ -11,15 +23,11 @@ body {
 .spacing2 {
     padding-left: 10rem;
 }
+
 .survey{
     margin-left: 30%;
     margin-right: 30%;
     background-color: #E4E4E4;
-}
-h1 {
-    background-color: white;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 .main{
     padding-left: 1rem;
